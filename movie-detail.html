@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Detail Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/movie.css">
+
+    <!--- google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- Fontawesome Link for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href=""><img src="images/logo.svg" alt="" /></a>
+        </div>
+        <ul class="nav-list">
+          <div class="logo">
+            <a href=""><img src="images/logo.svg" alt=""></a>
+            <button class="close"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+          <li class="home"><a href="">home</a></li>
+          <li><a href="">movie</a></li>
+          <li><a href="">tv show</a></li>
+          <li><a href="">web series</a></li>
+          <li><a href="">pricing</a></li>
+          <button class="btn">SIGN IN</button>
+        </ul>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- movie-detail section start  -->
+    <section class="movie-detail">
+        <div class="main">
+            <div class="img">
+                <a href=""><img src="images/movie-4.png" alt=""></a>
+                <i class="fa-regular fa-circle-play"></i>
+            </div>
+            <div class="content">
+                <strong>New Episodes</strong>
+                <h4>Free <span>Guy</span></h4>
+                <div class="badge-genre">
+                    <div class="badge">
+                        <span>PG 13</span>
+                        <span>HD</span>
+                    </div>
+                    <div class="genre">
+                        <a href="">Comedy</a>,
+                        <a href="">Action</a>,
+                        <a href="">Adventure</a>,
+                        <a href="">Science Fiction</a>
+                    </div>
+                </div>
+                <div class="date-time">
+                    <span><i class="fa-solid fa-calendar-days"></i> 2021</span>
+                    <span><i class="fa-regular fa-clock"></i> 115 min</span>
+                </div>
+                <p>A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.</p>
+                <div class="detail-actions">
+                  <button>
+                    <i class="bi bi-share-fill"></i>
+                    <span>Share</span>
+                  </button>
+                  <div class="prime">
+                    <h5>Prime Video</h5>
+                    <small>Streaming Channels</small>
+                  </div>
+                  <div class="btn">
+                    <button><i class="fa-solid fa-play"></i> Watch Now</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="download-btn">
+            <a href="images/movie-4.png" download>download <i class="fa-solid fa-download"></i></a>
+        </div>
+    </section>
+
+    <!-- tvs series section starts  -->
+    <section class="tv-series same">
+      <div class="header">
+        <small>best tv series</small>
+        <h4>World Best TV Series</h4>
+      </div>
+      <div class="movie-card">
+        <ul class="wrapper">
+          <li class="card">
+            <div class="img">
+              <a href=""><img src="images/series-1.png" alt="" /></a>
+            </div>
+            <div class="title">
+              <a href=""><h4>Moon Knight</h4></a>
+              <span>2022</span>
+            </div>
+            <div class="footer">
+              <span>2K</span>
+              <div class="time-rating">
+                <span><i class="fa-regular fa-clock"></i> 47 min</span>
+                <span><i class="fa-solid fa-star"></i> 8.6</span>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <div class="img">
+              <a href=""><img src="images/series-2.png" alt="" /></a>
+            </div>
+            <div class="title">
+              <a href=""><h4>Halo</h4></a>
+              <span>2022</span>
+            </div>
+            <div class="footer">
+              <span>2K</span>
+              <div class="time-rating">
+                <span><i class="fa-regular fa-clock"></i> 59 min</span>
+                <span><i class="fa-solid fa-star"></i> 8.8</span>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <div class="img">
+              <a href=""><img src="images/series-3.png" alt="" /></a>
+            </div>
+            <div class="title">
+              <a href=""><h4>Viking valhalla</h4></a>
+              <span>2022</span>
+            </div>
+            <div class="footer">
+              <span>2K</span>
+              <div class="time-rating">
+                <span><i class="fa-regular fa-clock"></i> 51 min</span>
+                <span><i class="fa-solid fa-star"></i> 8.3</span>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <div class="img">
+              <a href=""><img src="images/series-4.png" alt="" /></a>
+            </div>
+            <div class="title">
+              <a href=""><h4>Money Heist</h4></a>
+              <span>2017</span>
+            </div>
+            <div class="footer">
+              <span>4K</span>
+              <div class="time-rating">
+                <span><i class="fa-regular fa-clock"></i> 70 min</span>
+                <span><i class="fa-solid fa-star"></i> 8.3</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer>
+      <div class="main">
+        <div class="footer-top">
+          <nav>
+            <div class="logo">
+              <img src="images/logo.svg" alt="" />
+            </div>
+            <ul class="list">
+              <li><a href="">home</a></li>
+              <li><a href="">movie</a></li>
+              <li><a href="">tv show</a></li>
+              <li><a href="">web series</a></li>
+              <li><a href="">pricing</a></li>
+            </ul>
+          </nav>
+          <hr />
+          <div class="links">
+            <div class="text-links">
+              <a href="">faq</a>
+              <a href="">help center</a>
+              <a href="">terms of use</a>
+              <a href="">privacy</a>
+            </div>
+            <div class="social-links">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-pinterest"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="copyright">
+            <p>&#169; 2022 <a href="">pawantech12</a>. All Rights Reserved</p>
+          </div>
+          <div class="img">
+            <img src="images/footer-bottom-img.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/navbar.js"></script>
+
+  </body>
+</html>
